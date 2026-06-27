@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd29b9c682c20654384f69d9078ec2f0, type: 3}
+  m_Name: red
+  m_EditorClassIdentifier: 
+  itemID: potion_red
+  itemName: "红药水"
+  description: "恢复30点生命值"
+  icon: {fileID: 21300000, guid: 332626c7549af5b448e14c9c9f594e29, type: 3}
+  itemType: 0
+  maxStack: 99
+  effect:
+    healthRestore: 30
+    manaRestore: 0
+    duration: 0
+    effectType: 1
+  buyPrice: 50
+  sellPrice: 25

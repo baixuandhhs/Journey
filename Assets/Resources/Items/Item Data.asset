@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd29b9c682c20654384f69d9078ec2f0, type: 3}
+  m_Name: Item Data
+  m_EditorClassIdentifier: 
+  itemID: potion_blue
+  itemName: "\u84DD\u836F\u6C34"
+  description: "\u6062\u590D 30 \u70B9\u6CD5\u529B\u503C"
+  icon: {fileID: 21300000, guid: 2bc1efcdf47dfa74d80760f843b48909, type: 3}
+  itemType: 0
+  maxStack: 99
+  effect:
+    healthRestore: 0
+    manaRestore: 0
+    duration: 0
+    effectType: 2
+  buyPrice: 0
+  sellPrice: 30

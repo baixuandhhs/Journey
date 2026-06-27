@@ -1,0 +1,33 @@
+﻿# --- Unity generated ---
+[Tt]emp/
+[Oo]bj/
+[Ll]ibrary/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Bb]uilds/
+[Bb]uild/
+UserSettings/
+
+# --- VS / Rider ---
+.vs/
+*.csproj
+*.sln
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.idea/
+*.DotSettings.user
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+*.orig
+
+# --- Aider ---
+.aider*
+
+# --- WebGL Build output (keep out of source repo, will be pushed separately to gh-pages) ---
+WebGL/
+# --- API Keys ---
+.env
